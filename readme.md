@@ -4,16 +4,16 @@
 This is a Blog CMS Application with CRUD (create, read, update, delete) feature. This application uses [Laravel](https://laravel.com/) framework.
 
 ## Usage
-	- Requires [Laravel](https://laravel.com/) framework
-	- Add admin using tinker:
-		```php
-		php artisan tinker
-		$user = new User;
-		$user->username = 'admin';
-		$user->name = 'admin';
-		$user->password = bcrypt('password');
-		$user->save();
-		```
-	- Hello
+- Requires [Laravel](https://laravel.com/) framework
+- Add admin using tinker:
+	```php
+	php artisan tinker
+	$user = new User;
+	$user->username = 'admin';
+	$user->name = 'admin';
+	$user->password = bcrypt('password');
+	$user->save();
+	```
+- Hello
 
 
