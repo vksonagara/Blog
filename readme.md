@@ -5,7 +5,7 @@ This is a Blog CMS Application with CRUD (create, read, update, delete) feature.
 
 ## Features
 - Good Blog Theme
-- Create Admin user
+- Create Admin user and also other users.
 - Create, Read, Update and Delete posts
 - CKeditor for post creation
 
@@ -22,8 +22,8 @@ This is a Blog CMS Application with CRUD (create, read, update, delete) feature.
 	```php
 	php artisan tinker
 	$user = new User;
-	$user->username = 'admin';
 	$user->name = 'admin';
+	$user->email = 'your email'
 	$user->password = bcrypt('password');
 	$user->save();
 	```
