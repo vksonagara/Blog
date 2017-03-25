@@ -1,17 +1,23 @@
-<p align="center"><img src="https://laravel.com/assets/img/components/logo-laravel.svg"></p>
+# Laravel Blog
 
 ## About Blog
 This is a Blog CMS Application with CRUD (create, read, update, delete) feature. This application uses [Laravel](https://laravel.com/) framework.
 
+## Features
+- Good Blog Theme
+- Create Admin user
+- Create, Read, Update and Delete posts
+- CKeditor for post creation
+
 ## Usage
-- Requires [Laravel 5](https://laravel.com/) framework
+- Requires [Laravel 5](https://laravel.com/) framework.
 - Add database configuration: go to .env file and change DB_DATABASE, DB_USERNAME, DB_PASSWORD.
 - Add tables to database:
 	1. Add Automatically (run following command in terminal in blog/(project root) folder):
 		```php
 		php artisan migrate
 		```
-	2. Add manually: go to database/migrations/ and check table and columns and add manually to your database
+	2. Add manually: go to database/migrations/ and check table and columns and add manually to your database.
 - Add admin using tinker (run following command in terminal in blog/(project root) folder):
 	```php
 	php artisan tinker
@@ -25,6 +31,6 @@ This is a Blog CMS Application with CRUD (create, read, update, delete) feature.
 	```php 
 	php arisan serve
 	```
--Open [127.0.0.1:8000](127.0.0.1:8000) in browser
+- Open [127.0.0.1:8000](http://127.0.0.1:8000) in browser.
 
 
