@@ -1,6 +1,4 @@
-Laravel Blog
-
-## About Blog
+## About Laravel-Blog
 This is a Blog CMS Application with CRUD (create, read, update, delete) feature. This application uses [Laravel](https://laravel.com/) framework.
 
 ## Features
