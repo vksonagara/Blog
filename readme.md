@@ -7,12 +7,12 @@ This is a Blog CMS Application with CRUD (create, read, update, delete) feature.
 - Requires [Laravel 5](https://laravel.com/) framework
 - Add database configuration: go to .env file and change DB_DATABASE, DB_USERNAME, DB_PASSWORD.
 - Add tables to database:
-	1. Add Automatically
+	1. Add Automatically (run following command in terminal in blog/(project root) folder):
 		```php
 		php artisan migrate
 		```
 	2. Add manually: go to database/migrations/ and check table and columns and add manually to your database
-- Add admin using tinker:
+- Add admin using tinker (run following command in terminal in blog/(project root) folder):
 	```php
 	php artisan tinker
 	$user = new User;
@@ -21,6 +21,10 @@ This is a Blog CMS Application with CRUD (create, read, update, delete) feature.
 	$user->password = bcrypt('password');
 	$user->save();
 	```
-- Hello
+- Run Server (run following command in terminal in blog/(project root) folder):
+	```php 
+	php arisan serve
+	```
+-Open [127.0.0.1:8000](127.0.0.1:8000) in browser
 
 
