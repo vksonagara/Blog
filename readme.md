@@ -30,5 +30,6 @@ This is a Blog CMS Application with CRUD (create, read, update, delete) feature.
 	php arisan serve
 	```
 - Open [127.0.0.1:8000](http://127.0.0.1:8000) in browser.
+- Go to [127.0.0.1:8000/home](http://127.0.0.1:8000/home) for Admin Panel.
 
 
